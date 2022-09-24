@@ -1,0 +1,49 @@
+[23-Sep-2022 17:11:14 UTC] PHP Notice:  Undefined index: email in /home/wesempir/public_html/booking/booking.php on line 8
+[23-Sep-2022 17:11:14 UTC] PHP Warning:  mail() expects at most 5 parameters, 12 given in /home/wesempir/public_html/booking/booking.php on line 20
+[23-Sep-2022 17:21:00 UTC] PHP Notice:  Undefined index: email in /home/wesempir/public_html/booking/booking.php on line 8
+[23-Sep-2022 17:21:00 UTC] PHP Warning:  mail() expects at most 5 parameters, 12 given in /home/wesempir/public_html/booking/booking.php on line 20
+[23-Sep-2022 17:50:13 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[23-Sep-2022 17:50:13 UTC] PHP Warning:  mail() expects at most 5 parameters, 11 given in /home/wesempir/public_html/booking/booking.php on line 19
+[23-Sep-2022 18:11:31 UTC] PHP Notice:  Undefined index: Title in /home/wesempir/public_html/booking/booking.php on line 3
+[23-Sep-2022 18:11:31 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[23-Sep-2022 18:11:31 UTC] PHP Notice:  Undefined index: country in /home/wesempir/public_html/booking/booking.php on line 9
+[23-Sep-2022 18:11:31 UTC] PHP Warning:  mail() expects at most 5 parameters, 11 given in /home/wesempir/public_html/booking/booking.php on line 19
+[23-Sep-2022 18:13:54 UTC] PHP Notice:  Undefined index: Title in /home/wesempir/public_html/booking/booking.php on line 3
+[23-Sep-2022 18:13:54 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[23-Sep-2022 18:13:54 UTC] PHP Notice:  Undefined index: country in /home/wesempir/public_html/booking/booking.php on line 9
+[23-Sep-2022 18:13:54 UTC] PHP Warning:  mail() expects at most 5 parameters, 11 given in /home/wesempir/public_html/booking/booking.php on line 19
+[23-Sep-2022 18:17:25 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[23-Sep-2022 18:17:25 UTC] PHP Notice:  Undefined variable: Title in /home/wesempir/public_html/booking/booking.php on line 18
+[23-Sep-2022 18:17:25 UTC] PHP Notice:  Undefined variable: country in /home/wesempir/public_html/booking/booking.php on line 18
+[23-Sep-2022 18:17:25 UTC] PHP Notice:  Undefined variable: date in /home/wesempir/public_html/booking/booking.php on line 18
+[23-Sep-2022 18:17:25 UTC] PHP Notice:  Undefined variable: Services in /home/wesempir/public_html/booking/booking.php on line 18
+[23-Sep-2022 18:17:25 UTC] PHP Warning:  mail() expects at most 5 parameters, 11 given in /home/wesempir/public_html/booking/booking.php on line 18
+[23-Sep-2022 19:20:24 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[23-Sep-2022 19:20:24 UTC] PHP Warning:  mail() expects at most 5 parameters, 11 given in /home/wesempir/public_html/booking/booking.php on line 18
+[23-Sep-2022 19:32:21 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[23-Sep-2022 19:32:21 UTC] PHP Warning:  mail() expects at most 5 parameters, 11 given in /home/wesempir/public_html/booking/booking.php on line 18
+[24-Sep-2022 09:46:53 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[24-Sep-2022 09:46:53 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/wesempir/public_html/booking/booking.php on line 15
+[24-Sep-2022 09:46:53 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/wesempir/public_html/booking/booking.php on line 15
+[24-Sep-2022 10:11:51 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[24-Sep-2022 10:11:51 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$Algeria in /home/wesempir/public_html/booking/booking.php on line 40
+[24-Sep-2022 10:11:51 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$2022-09-24 in /home/wesempir/public_html/booking/booking.php on line 41
+[24-Sep-2022 10:11:51 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$Ocean Freight in /home/wesempir/public_html/booking/booking.php on line 42
+[24-Sep-2022 10:11:51 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$hjghghb in /home/wesempir/public_html/booking/booking.php on line 43
+[24-Sep-2022 10:11:51 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/wesempir/public_html/booking/vendor/phpmailer/phpmailer/src/PHPMailer.php:1588
+Stack trace:
+#0 /home/wesempir/public_html/booking/vendor/phpmailer/phpmailer/src/PHPMailer.php(1496): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/wesempir/public_html/booking/booking.php(45): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/wesempir/public_html/booking/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1588
+[24-Sep-2022 10:27:38 UTC] PHP Notice:  Undefined index: Phone in /home/wesempir/public_html/booking/booking.php on line 7
+[24-Sep-2022 10:27:38 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$Algeria in /home/wesempir/public_html/booking/booking.php on line 40
+[24-Sep-2022 10:27:38 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$2022-09-24 in /home/wesempir/public_html/booking/booking.php on line 41
+[24-Sep-2022 10:27:38 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$Ocean Freight in /home/wesempir/public_html/booking/booking.php on line 42
+[24-Sep-2022 10:27:38 UTC] PHP Notice:  Undefined property: PHPMailer\PHPMailer\PHPMailer::$hjghghb in /home/wesempir/public_html/booking/booking.php on line 43
+[24-Sep-2022 10:27:38 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Message body empty in /home/wesempir/public_html/booking/vendor/phpmailer/phpmailer/src/PHPMailer.php:1588
+Stack trace:
+#0 /home/wesempir/public_html/booking/vendor/phpmailer/phpmailer/src/PHPMailer.php(1496): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/wesempir/public_html/booking/booking.php(45): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/wesempir/public_html/booking/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 1588

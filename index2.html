@@ -1,0 +1,278 @@
+<form action="booking.php" method="POST">   <div class="form-section">
+        <div class="form-row">
+            <div class="col-12 col-lg-3 form-group">
+                <label class="form-label custom-form-label" for="Title">Title*</label>
+                <select class="custom-select" data-val="true" data-val-required="The Contacts.Enquiry.Title field is required." id="Title" name="Title"><option value="">Please select</option>
+<option value="Ms">Ms</option>
+<option value="Miss">Miss</option>
+<option value="Mrs">Mrs</option>
+<option value="Mr">Mr</option>
+</select>
+                <span class="field-validation-valid" data-valmsg-for="Title" data-valmsg-replace="true"></span>
+            </div>
+            <div class="col-12 col-lg-4 form-group">
+                <label class="form-label custom-form-label" for="Surname">Surname.</label>
+                <input class="form-control text-box single-line" data-val="true" data-val-required="The Contacts.Enquiry.FullName.Surname field is required." id="Surname" name="Surname" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="Surname" data-valmsg-replace="true"></span>
+            </div>
+            <div class="col-12 col-lg-5 form-group">
+                <label class="form-label custom-form-label" for="FirstName">First Name.</label>
+                <input class="form-control text-box single-line" data-val="true" data-val-required="The Contacts.Enquiry.FullName.FirstName field is required." id="FirstName" name="FirstName" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+            </div>
+        </div>   
+      
+        <div class="form-row">
+            <div class="col-12 col-lg-3 form-group">
+                <label class="form-label custom-form-label" for="AreaCode">Location. </label>
+                <input class="form-control text-box single-line" data-val="true" data-val-required="The Contacts.Enquiry.Phone.AreaCode field is required." id="AreaCode" name="AreaCode" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="AreaCode" data-valmsg-replace="true"></span>
+            </div>
+            <div class="col-12 col-lg-4 form-group">
+                <label class="form-label custom-form-label" for="Phone">Phone No.</label>
+                <input class="form-control form-phone text-box single-line" data-val="true" data-val-required="The Contacts.Enquiry.Phone field is required." id="Phone" name="Phone" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+            </div>
+            <div class="col-12 col-lg-5 form-group">
+                <label class="form-label custom-form-label" for="Email">Email.</label>
+                <input class="form-control text-box single-line" data-val="true" data-val-required="The Contacts.Enquiry.Email field is required." id="Email" name="Email" type="email" value="" />
+                <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-12 col-lg-6 form-group form-group-parent">
+                <label class="form-label custom-form-label" for="Country">Destination Country </label>
+                <select class="custom-select" data-val="true" data-val-required="The Contacts.Enquiry.Country field is required." id="Country" name="Country"><option value="">Please select</option>
+<option value="Algeria">Algeria</option>
+<option value="Argentina">Argentina</option>
+<option value="Armenia">Armenia</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Azerbaijan">Azerbaijan</option>
+<option value="Bahrain">Bahrain</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Belgium">Belgium</option>
+<option value="Benin">Benin</option>
+<option value="Bolivia">Bolivia</option>
+<option value="Botswana">Botswana</option>
+<option value="Brazil">Brazil</option>
+<option value="Brunei">Brunei</option>
+<option value="Bulgaria">Bulgaria</option>
+<option value="Burundi">Burundi</option>
+<option value="Cambodia">Cambodia</option>
+<option value="Canada">Canada</option>
+<option value="Chile">Chile</option>
+<option value="Colombia">Colombia</option>
+<option value="Congo">Congo</option>
+<option value="Costa Rica">Costa Rica</option>
+<option value="Cote d&#39;ivoire">Cote d&#39;ivoire</option>
+<option value="Croatia">Croatia</option>
+<option value="Cyprus">Cyprus</option>
+<option value="Czech Republic">Czech Republic</option>
+<option value="Denmark">Denmark</option>
+<option value="Djibouti">Djibouti</option>
+<option value="Egypt">Egypt</option>
+<option value="El Salvador">El Salvador</option>
+<option value="Estonia">Estonia</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="Finland">Finland</option>
+<option value="France">France</option>
+<option value="Gabon">Gabon</option>
+<option value="Georgia">Georgia</option>
+<option value="Germany">Germany</option>
+<option value="Ghana">Ghana</option>
+<option value="Greece">Greece</option>
+<option value="Guatemala">Guatemala</option>
+<option value="Honduras">Honduras</option>
+<option value="Hong Kong">Hong Kong</option>
+<option value="Hungary">Hungary</option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kazakhstan">Kazakhstan</option>
+<option value="Kenya">Kenya</option>
+<option value="Korea">Korea</option>
+<option value="Kosovo">Kosovo</option>
+<option value="Kuwait">Kuwait</option>
+<option value="Kyrgyzstan">Kyrgyzstan</option>
+<option value="Laos">Laos</option>
+<option value="Latvia">Latvia</option>
+<option value="Lebanon">Lebanon</option>
+<option value="Lithuania">Lithuania</option>
+<option value="Luxemburg">Luxemburg</option>
+<option value="Macau">Macau</option>
+<option value="Macedonia">Macedonia</option>
+<option value="Mainland">Mainland</option>
+<option value="Malawi">Malawi</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Maldives">Maldives</option>
+<option value="Mauritius">Mauritius</option>
+<option value="Mexico">Mexico</option>
+<option value="Mongolia">Mongolia</option>
+<option value="Morocco">Morocco</option>
+<option value="Mozambique">Mozambique</option>
+<option value="Myanmar">Myanmar</option>
+<option value="Namibia">Namibia</option>
+<option value="Nepal">Nepal</option>
+<option value="Netherlands">Netherlands</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nicaragua">Nicaragua</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Norway">Norway</option>
+<option value="Oman">Oman</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Panama">Panama</option>
+<option value="Paraguay">Paraguay</option>
+<option value="Peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Qatar">Qatar</option>
+<option value="Romania">Romania</option>
+<option value="Russia">Russia</option>
+<option value="Rwanda">Rwanda</option>
+<option value="Senegal">Senegal</option>
+<option value="Serbia">Serbia</option>
+<option value="Singapore">Singapore</option>
+<option value="Slovenia">Slovenia</option>
+<option value="South Africa">South Africa</option>
+<option value="Spain">Spain</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Taiwan">Taiwan</option>
+<option value="Tajikistan">Tajikistan</option>
+<option value="Tanzania">Tanzania</option>
+<option value="Thailand">Thailand</option>
+<option value="Togo">Togo</option>
+<option value="Turkey">Turkey</option>
+<option value="Turkmenistan">Turkmenistan</option>
+<option value="UAE">UAE</option>
+<option value="Uganda">Uganda</option>
+<option value="UK">UK</option>
+<option value="Ukraine">Ukraine</option>
+<option value="Uruguay">Uruguay</option>
+<option value="USA">USA</option>
+<option value="Uzbekistan">Uzbekistan</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Zambia">Zambia</option>
+<option value="Others">Others</option>
+</select>
+                <span class="field-validation-valid" data-valmsg-for="Country" data-valmsg-replace="true"></span>
+            </div>
+            <div class="col-12 col-lg-6 form-group form-group-child" style="display:none;">
+                <label class="form-label custom-form-label" for="CountrySpecify">Please specify</label>
+                <input class="form-control text-box single-line" id="CountrySpecify" name="CountrySpecify" type="text" value="" />
+                <span class="field-validation-valid" data-valmsg-for="CountrySpecify" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+           <div class="form-row">
+            <div class="col-12 col-lg-6 form-group form-group-parent">
+                <label class="form-label custom-form-label" for="Country">Collection Date </label>
+                <input class="form-control" type="date" name="date" required>
+
+</div>
+</div>
+   <div class="form-row">
+            <div class="col-12 col-lg-6 form-group form-group-parent">
+                <label class="form-label custom-form-label" for="Country">Collection Time </label>
+<span class="form-label">Pickup Time</span>
+</div>
+</div>
+</div>
+ <div class="form-section">
+            <div class="form-row">         
+                <div class="col-12 form-group non-input-ele">
+                    <label class="form-label theme-line-label" for="Services">Estimated box size</label>
+                </div>
+              
+
+
+                <div class="col-12 form-group-parent">
+                    <div class="form-legend">
+                        <div class="row">
+                            
+                                <div class="col-12 col-lg-4">
+                                    <div class="form-group non-input-ele">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" id="Services0" name="Services" class="custom-control-input " value="Air Freight" />
+                                            <label class="form-label custom-control-label" for="Services0">Small package(20inches*20inches*20inches)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <div class="form-group non-input-ele">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" id="Services1" name="Services" class="custom-control-input " value="Ocean Freight" />
+                                            <label class="form-label custom-control-label" for="Services1">Big package(30inches*30inches*30inches)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <div class="form-group non-input-ele">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" id="Services2" name="Services" class="custom-control-input " value="Line Haul Trucking" />
+                                            <label class="form-label custom-control-label" for="Services2">Extra Laarge package(400inches*40inches*40inches)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <div class="form-group non-input-ele">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" id="Services3" name="Services" class="custom-control-input " value="Less-than-Truck Load (LTL)" />
+                                            <label class="form-label custom-control-label" for="Services3">Drum Package</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <div class="form-group non-input-ele">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" id="Services3" name="Services" class="custom-control-input " value="Less-than-Truck Load (LTL)" />
+                                            <label class="form-label custom-control-label" for="Services3">Multi Packages</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                <div class="col-12 form-group form-group-child" style="display:none;">
+                    <label class="form-label custom-form-label" for="ServicesSpecify">Please specify</label>
+                    <input class="form-control text-box single-line" id="ServicesSpecify" name="ServicesSpecify" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="ServicesSpecify" data-valmsg-replace="true"></span>
+                </div>
+            </div>     
+        </div>
+    <div class="form-section"> 
+        <div class="form-row">            
+            <div class="col-12 form-group">
+                <label class="form-label textarea-label custom-form-label" for="Enquiry">Comment /Requirements</label>
+                <textarea class="form-control d-none d-lg-block" cols="20" data-val="true" data-val-required="The Contacts.Enquiry field is required." id="Enquiry" name="Enquiry" row="1" rows="2">
+</textarea>
+                <textarea class="form-control d-block d-lg-none" cols="20" id="Enquiry" name="Enquiry" row="1" rows="2">
+</textarea>
+                <span class="field-validation-valid" data-valmsg-for="Enquiry" data-valmsg-replace="true"></span>
+            </div>                                       
+            <div class="col-12 col-lg-6 form-group">
+                <div id="recaptcha-element" class="g-recaptcha" data-sitekey="6Ldt2O8UAAAAAOvA3l69FpdZ3bIi4x574NU-pQqS" data-url="/umbraco/Surface/FormSurface/VerifyCaptcha"></div>
+                
+                <input id="IsVerified" name="IsVerified" type="hidden" value="" />
+                <span class="field-validation-valid" data-valmsg-for="IsVerified" data-valmsg-replace="true"></span>
+            </div>          
+        </div>  
+    </div>
+   
+<input id="IsV3" name="IsV3" type="hidden" value="False" />    <div class="form-section">
+        <div class="form-row">            
+            <div class="col-12 col-md-6 col-lg-3 form-group">
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 form-group">
+                <button type="reset"  class="btn btn-secondary">Reset</button>
+            </div>
+        </div>
+       
+    </div>
+</form>
