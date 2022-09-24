@@ -1,49 +1,44 @@
 <?php
+extract($_POST);
 
-    $Title=$_POST['Title'];
-    $sname=$_POST['sname'];
-    $fname=$_POST['fname'];
-    $location=$_POST['location'];
-    $Phone=$_POST['Phone'];
-    $email=$_POST['email'];
-    $country=$_POST['country'];
-    $date=$_POST['date'];
-    $Services=$_POST['Services'];
-    $message=$_POST['message'];
-   
-    
-    require "vendor/autoload.php";
+require "vendor/autoload.php";
 
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 
-    $mail=new PHPMailer(true);
+$mail=new PHPMailer(true);
 
-    $mail->isSMTP();
-    $mail->SMTPAuth=true;
+$mail->SMTPDebug = 2;   
+$mail->isSMTP();
+$mail->SMTPAuth=true;
 
-    $mail->Host="mail.wesempire.co.ke";
-    $mail->SMTPSecure=PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port=465;
+$mail->Host="mail.wesempire.co.ke";
+$mail->SMTPSecure='ssl';
+$mail->Port=465;
 
-    $mail->Username="wesley@wesempire.co.ke";
-    $mail->Password="Wesley_Nyandika1";
+$mail->Username="wasike@wesempire.co.ke";
+$mail->Password="45454245Kelvin";
 
-    $mail->setFrom($email,$sname);
-    $mail->addAddress("info@wesempire.co.ke");
+$mail->setFrom("wasike@wesempire.co.ke", "Wasike");
+$mail->addAddress("kelvinwasike007@gmail.com");
 
-    $mail->Subject=$Title;
-    $mail->Body=$sname;
-    $mail->Body=$fname;
-    $mail->Body=$location;
-    $mail->Body=$Phone;
-    $mail->$country; 
-    $mail->$date;
-    $mail->$Services;
-    $mail->$message;
-
+$mail->Subject='Booking';
+$mail->isHTML(true);
+$headline=$title.' '.$sname.' '.$fname.', your booking has been made for '.$country.'. You will be expected on <b>'.$date.'</b><br/>'  ;  
+$msg_title='Here are the list of estimated box size you choose:';
+$boxes .= $box1 == '' ? '' : '<li>'.$box1.'</li>';
+$boxes .= $box2 == '' ? '' : '<li>'.$box2.'</li>';
+$boxes .= $box3 == '' ? '' : '<li>'.$box3.'</li>';
+$boxes .= $box4 == '' ? '' : '<li>'.$box4.'</li>';
+$boxes .= $box5 == '' ? '' : '<li>'.$box5.'</li>';
+$mail->Body=$headline.$msg_title.$boxes.'<br>We Have Taken note of your comment too: . <b>'.$message.'</b>';
+try {
     $mail->send();
-    echo "email sent";
-
-    // header("Location:index.html");
+    echo "Sent";
+}catch (Exception $e){
+    echo $mail->ErrorInfo;
+}
+//echo "email sent";
+// 
+header("Location:index.html");
 ?>
