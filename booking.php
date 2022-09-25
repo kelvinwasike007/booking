@@ -17,7 +17,7 @@ $mail->SMTPSecure='ssl';
 $mail->Port=465;
 
 $mail->Username="wasike@wesempire.co.ke";
-$mail->Password="45454245Kelvin";
+$mail->Password="";
 
 $mail->setFrom("wasike@wesempire.co.ke", "Wasike");
 $mail->addAddress("kelvinwasike007@gmail.com");
